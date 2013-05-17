@@ -1,0 +1,24 @@
+Garbage collector: 
+Name = 'ParNew', Collections = 180, Total time spent = 1 minute
+Garbage collector: 
+Name = 'ConcurrentMarkSweep', Collections = 6, Total time spent = 25.316 seconds
+ 
+Operating System: 
+Linux 3.8.7-030807-generic
+Architecture: 
+amd64
+Number of processors: 
+2
+Committed virtual memory: 
+2,815,848 kbytes
+Total physical memory: 
+6,110,636 kbytes
+Free physical memory: 
+1,058,616 kbytes
+Total swap space: 
+6,835,196 kbytes
+Free swap space: 
+6,835,196 kbytes
+
+-XX:InitialHeapSize=97770176 -XX:MaxHeapSize=1564322816 -XX:MaxNewSize=261726208 -XX:MaxTenuringThreshold=6 -XX:OldPLABSize=16 -XX:ParallelGCThreads=3 -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+

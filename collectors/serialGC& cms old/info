@@ -1,0 +1,27 @@
+Garbage collector: 
+Name = 'Copy', Collections = 201, Total time spent = 1 minute
+Garbage collector: 
+Name = 'MarkSweepCompact', Collections = 15, Total time spent = 49.057 seconds
+ 
+Operating System: 
+Linux 3.8.7-030807-generic
+Architecture: 
+amd64
+Number of processors: 
+2
+Committed virtual memory: 
+2,737,844 kbytes
+Total physical memory: 
+6,110,636 kbytes
+Free physical memory: 
+1,534,224 kbytes
+Total swap space: 
+6,835,196 kbytes
+Free swap space: 
+6,835,196 kbytes
+
+
+java.runtime.version=1.7.0_21-b11
+
+-XX:InitialHeapSize=97770176 -XX:MaxHeapSize=1564322816 -XX:ParallelGCThreads=3 -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseSerialGC 
+
