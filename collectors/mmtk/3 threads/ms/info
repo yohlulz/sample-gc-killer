@@ -1,0 +1,2 @@
+-XX:InitialHeapSize=97770176 -XX:MaxHeapSize=1564322816 -XX:ParallelGCThreads=3 -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseParallelGC 
+

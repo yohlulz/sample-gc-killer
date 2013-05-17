@@ -1,0 +1,29 @@
+Garbage collector: 
+Name = 'PS MarkSweep', Collections = 17, Total time spent = 2 minutes
+Garbage collector: 
+Name = 'PS Scavenge', Collections = 349, Total time spent = 3 minutes
+ 
+Operating System: 
+Linux 3.8.7-030807-generic
+Architecture: 
+amd64
+Number of processors: 
+2
+Committed virtual memory: 
+2,821,192 kbytes
+Total physical memory: 
+6,110,636 kbytes
+Free physical memory: 
+1,100,552 kbytes
+Total swap space: 
+6,835,196 kbytes
+Free swap space: 
+6,835,196 kbytes
+
+-XX:InitialHeapSize=97770176 -XX:MaxHeapSize=1564322816 -XX:ParallelGCThreads=3 -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseParallelGC 
+
+os.arch=amd64
+os.name=Linux
+os.version=3.8.7-030807-generic
+
+
