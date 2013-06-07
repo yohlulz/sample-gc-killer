@@ -8,7 +8,15 @@ public class KillTheGarbageCollector {
     private static final int OLD_GEN_ITERATIONS = 10000000;
     private static int NR_THREADS = 3;
 
+    /**
+     * @uml.property  name="outerStore"
+     * @uml.associationEnd  multiplicity="(0 -1)" elementType="java.lang.String"
+     */
     private List<String> outerStore = new ArrayList<>(LIST_SIZE);
+    /**
+     * @uml.property  name="oldStore"
+     * @uml.associationEnd  multiplicity="(0 -1)" elementType="java.lang.String"
+     */
     private List<String> oldStore = new ArrayList<>(LIST_SIZE);
 
     public static void main(String[] args) {
