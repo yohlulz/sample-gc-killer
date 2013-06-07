@@ -1,0 +1,960 @@
+-XX:InitialHeapSize=97770176 -XX:MaxHeapSize=2621440000 -XX:+PrintCommandLineFlags -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseParallelGC 
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 1,9,10,8,16,14,12,2,20,15
+[SCHEDULER] Scheduling new collector
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 18,18,14,3,16,5,5,16,2,1
+[SCHEDULER] Scheduling new collector
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 4,9,5,8,13,1,4,3,13,4
+[SCHEDULER] Scheduling new collector
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 6,6,18,8,3,3,6,14,19,16
+[SCHEDULER] Scheduling new collector
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 1,16,16,11,19,12,15,17,13,3
+[SCHEDULER] Scheduling new collector
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 20,18,17,7,8,17,9,18,4,8
+[SCHEDULER] Scheduling new mutator
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 8,9,6,19,9,18,12,19,19,19
+[DEBUG] FROM_SPACE{cmc-1=NOT_USED, cmc-0=NOT_USED, cmc-7=NOT_USED, cc-default=NOT_USED, cmc-2=NOT_USED, cmc-5=NOT_USED, cmc-4=NOT_USED, cmc-3=NOT_USED, cmc-6=NOT_USED}
+[DEBUG] M0 - init - cmc-1
+[SCHEDULER] MutatorThread created
+[SCHEDULER] Env.begin()
+[SCHEDULER] Setting uncaught exception handler for thread Mutator-1
+[SCHEDULER] Active mutators = 1
+[SCHEDULER] Running mutator code
+[SCHEDULER] Scheduling new mutator
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 19,13,18,12,7,1,18,3,16,1
+[DEBUG] FROM_SPACE{cmc-1=FROM_SPACE, cmc-0=NOT_USED, cmc-7=NOT_USED, cc-default=NOT_USED, cmc-2=NOT_USED, cmc-5=NOT_USED, cmc-4=NOT_USED, cmc-3=NOT_USED, cmc-6=NOT_USED}
+[DEBUG] M1 - init - cmc-0
+[SCHEDULER] MutatorThread created
+[SCHEDULER] Env.begin()
+[SCHEDULER] Setting uncaught exception handler for thread Mutator-2
+0 Spawn a thread
+[SCHEDULER] Active mutators = 2
+[SCHEDULER] Running mutator code
+[SCHEDULER] Scheduling new mutator
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 8,14,18,10,6,13,10,4,2,2
+[DEBUG] FROM_SPACE{cmc-1=FROM_SPACE, cmc-0=FROM_SPACE, cmc-7=NOT_USED, cc-default=NOT_USED, cmc-2=NOT_USED, cmc-5=NOT_USED, cmc-4=NOT_USED, cmc-3=NOT_USED, cmc-6=NOT_USED}
+[DEBUG] M2 - init - cmc-7
+[SCHEDULER] stopAllMutators
+[SCHEDULER] stopAllMutators - sync trigger
+[SCHEDULER] State changing from MUTATOR to BLOCKING
+[SCHEDULER] waitForGCStart - Sync trigger
+[SCHEDULER] 15 waitForGC in, state=MUTATOR, mutatorsBlocked=1
+[SCHEDULER] MutatorThread created
+[SCHEDULER] 16 waitForGC in, state=BLOCKING, mutatorsBlocked=2
+[SCHEDULER] State changing from BLOCKING to BLOCKED
+[SCHEDULER] GC has started - returning to caller
+[SCHEDULER] stopAllMutators - done
+[SCHEDULER] Env.begin()
+waitForCycle - wait concurrent threads to stop.
+[SCHEDULER] Setting uncaught exception handler for thread Mutator-3
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[SCHEDULER] Active mutators = 3
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[SCHEDULER] 17 waitForGC in, state=BLOCKED, mutatorsBlocked=waitForCycle - wait concurrent threads to stop.
+3
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[GC 1 Start 0.54 s   0KB waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[DEBUG] TO_SPACE{cmc-1=FROM_SPACE, cmc-0=FROM_SPACE, cmc-7=FROM_SPACE, cc-default=NOT_USED, cmc-2=NOT_USED, cmc-5=NOT_USED, cmc-4=NOT_USED, cmc-3=NOT_USED, cmc-6=NOT_USED}waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+
+[DEBUG] TO_SPACE{cmc-1=FROM_SPACE, cmc-0=FROM_SPACE, cmc-7=FROM_SPACE, cc-default=NOT_USED, cmc-2=NOT_USED, cmc-5=NOT_USED, cmc-4=NOT_USED, cmc-3=NOT_USED, cmc-6=NOT_USED}
+[DEBUG] C1 - prepare - null -> cc-default
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[DEBUG] C2 - prepare - null -> cmc-2waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[COLLECT] Computing roots for mutatorswaitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+
+[COLLECT] Computing roots for mutators
+[COLLECT] mutators to scan: 3
+[COLLECT] Computing roots for mutator
+[COLLECT] mutators to scan: 2
+[COLLECT] Computing roots for mutator
+[COLLECT] mutators to scan: 1
+[COLLECT] Computing roots for mutator
+[COLLECT] mutators to scan: 0
+waitForCycle - wait concurrent threads to stop.
+[COLLECT] mutators to scan: waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+0waitForCycle - wait concurrent threads to stop.
+
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+-> 0KB   16.77 ms]
+waitForCycle - wait concurrent threads to stop.
+waitForCycle - wait concurrent threads to stop.
+[SCHEDULER] resumeAllMutator - sync trigger
+[SCHEDULER] State changing from BLOCKED to MUTATOR
+[SCHEDULER] 17 waitForGC out
+[SCHEDULER] Running mutator code
+[SCHEDULER] 15 waitForGC out
+[SCHEDULER] 16 waitForGC out
+1 Spawn a thread
+2Iteration :0
+0Iteration :0
+1Iteration :0
+2Iteration :1
+1Iteration :1
+0Iteration :1
+2Iteration :2
+1Iteration :2
+0Iteration :2
+2Iteration :3
+1Iteration :3
+0Iteration :3
+2Iteration :4
+1Iteration :4
+0Iteration :4
+2Iteration :5
+1Iteration :5
+0Iteration :5
+2Iteration :6
+1Iteration :6
+0Iteration :6
+0Iteration :7
+2Iteration :7
+1Iteration :7
+0Iteration :8
+2Iteration :8
+1Iteration :8
+0Iteration :9
+2Iteration :9
+1Iteration :9
+0Iteration :10
+2Iteration :10
+1Iteration :10
+0Iteration :11
+0Iteration :12
+2Iteration :11
+1Iteration :11
+0Iteration :13
+1Iteration :12
+2Iteration :12
+0Iteration :14
+1Iteration :13
+0Iteration :15
+2Iteration :13
+0Iteration :16
+1Iteration :14
+2Iteration :14
+0Iteration :17
+1Iteration :15
+2Iteration :15
+0Iteration :18
+1Iteration :16
+2Iteration :16
+0Iteration :19
+1Iteration :17
+2Iteration :17
+0Iteration :20
+1Iteration :18
+2Iteration :18
+1Iteration :19
+0Iteration :21
+2Iteration :19
+1Iteration :20
+0Iteration :22
+2Iteration :20
+0Iteration :23
+1Iteration :21
+0Iteration :24
+1Iteration :22
+0Iteration :25
+2Iteration :21
+1Iteration :23
+0Iteration :26
+2Iteration :22
+0Iteration :27
+1Iteration :24
+2Iteration :23
+1Iteration :25
+0Iteration :28
+2Iteration :24
+1Iteration :26
+0Iteration :29
+2Iteration :25
+0Iteration :30
+1Iteration :27
+2Iteration :26
+1Iteration :28
+2Iteration :27
+0Iteration :31
+1Iteration :29
+0Iteration :32
+2Iteration :28
+1Iteration :30
+0Iteration :33
+2Iteration :29
+0Iteration :34
+1Iteration :31
+2Iteration :30
+0Iteration :35
+1Iteration :32
+0Iteration :36
+1Iteration :33
+0Iteration :37
+2Iteration :31
+1Iteration :34
+0Iteration :38
+2Iteration :32
+0Iteration :39
+1Iteration :35
+2Iteration :33
+0Iteration :40
+1Iteration :36
+2Iteration :34
+1Iteration :37
+0Iteration :41
+2Iteration :35
+1Iteration :38
+1Iteration :39
+0Iteration :42
+2Iteration :36
+0Iteration :43
+1Iteration :40
+2Iteration :37
+0Iteration :44
+2Iteration :38
+0Iteration :45
+2Iteration :39
+1Iteration :41
+0Iteration :46
+2Iteration :40
+1Iteration :42
+0Iteration :47
+1Iteration :43
+0Iteration :48
+1Iteration :44
+2Iteration :41
+0Iteration :49
+1Iteration :45
+2Iteration :42
+1Iteration :46
+0Iteration :50
+2Iteration :43
+1Iteration :47
+2Iteration :44
+1Iteration :48
+0Iteration :51
+1Iteration :49
+2Iteration :45
+0Iteration :52
+1Iteration :50
+2Iteration :46
+0Iteration :53
+0Iteration :54
+2Iteration :47
+1Iteration :51
+2Iteration :48
+0Iteration :55
+1Iteration :52
+0Iteration :56
+2Iteration :49
+1Iteration :53
+0Iteration :57
+2Iteration :50
+1Iteration :54
+0Iteration :58
+0Iteration :59
+1Iteration :55
+2Iteration :51
+0Iteration :60
+1Iteration :56
+2Iteration :52
+1Iteration :57
+2Iteration :53
+0Iteration :61
+1Iteration :58
+2Iteration :54
+0Iteration :62
+1Iteration :59
+2Iteration :55
+0Iteration :63
+0Iteration :64
+2Iteration :56
+1Iteration :60
+0Iteration :65
+2Iteration :57
+0Iteration :66
+1Iteration :61
+2Iteration :58
+0Iteration :67
+1Iteration :62
+0Iteration :68
+2Iteration :59
+1Iteration :63
+0Iteration :69
+2Iteration :60
+1Iteration :64
+0Iteration :70
+1Iteration :65
+1Iteration :66
+2Iteration :61
+0Iteration :71
+2Iteration :62
+1Iteration :67
+0Iteration :72
+2Iteration :63
+1Iteration :68
+0Iteration :73
+0Iteration :74
+1Iteration :69
+2Iteration :64
+0Iteration :75
+1Iteration :70
+2Iteration :65
+0Iteration :76
+2Iteration :66
+0Iteration :77
+1Iteration :71
+2Iteration :67
+0Iteration :78
+1Iteration :72
+2Iteration :68
+0Iteration :79
+1Iteration :73
+2Iteration :69
+0Iteration :80
+1Iteration :74
+2Iteration :70
+1Iteration :75
+0Iteration :81
+1Iteration :76
+0Iteration :82
+1Iteration :77
+2Iteration :71
+0Iteration :83
+1Iteration :78
+0Iteration :84
+2Iteration :72
+0Iteration :85
+1Iteration :79
+2Iteration :73
+0Iteration :86
+1Iteration :80
+2Iteration :74
+0Iteration :87
+2Iteration :75
+0Iteration :88
+1Iteration :81
+2Iteration :76
+0Iteration :89
+1Iteration :82
+2Iteration :77
+0Iteration :90
+1Iteration :83
+2Iteration :78
+0Iteration :91
+1Iteration :84
+2Iteration :79
+0Iteration :92
+1Iteration :85
+0Iteration :93
+2Iteration :80
+1Iteration :86
+0Iteration :94
+1Iteration :87
+0Iteration :95
+1Iteration :88
+2Iteration :81
+0Iteration :96
+1Iteration :89
+2Iteration :82
+0Iteration :97
+1Iteration :90
+0Iteration :98
+2Iteration :83
+0Iteration :99
+2Iteration :84
+1Iteration :91
+0Iteration :100
+2Iteration :85
+1Iteration :92
+2Iteration :86
+1Iteration :93
+2Iteration :87
+1Iteration :94
+0Iteration :101
+2Iteration :88
+0Iteration :102
+1Iteration :95
+2Iteration :89
+0Iteration :103
+1Iteration :96
+2Iteration :90
+0Iteration :104
+1Iteration :97
+1Iteration :98
+0Iteration :105
+2Iteration :91
+2Iteration :92
+1Iteration :99
+0Iteration :106
+2Iteration :93
+0Iteration :107
+1Iteration :100
+2Iteration :94
+0Iteration :108
+2Iteration :95
+1Iteration :101
+0Iteration :109
+2Iteration :96
+1Iteration :102
+0Iteration :110
+2Iteration :97
+1Iteration :103
+1Iteration :104
+2Iteration :98
+0Iteration :111
+1Iteration :105
+2Iteration :99
+0Iteration :112
+1Iteration :106
+2Iteration :100
+0Iteration :113
+1Iteration :107
+0Iteration :114
+1Iteration :108
+0Iteration :115
+2Iteration :101
+1Iteration :109
+0Iteration :116
+2Iteration :102
+1Iteration :110
+0Iteration :117
+2Iteration :103
+0Iteration :118
+2Iteration :104
+1Iteration :111
+0Iteration :119
+2Iteration :105
+1Iteration :112
+0Iteration :120
+2Iteration :106
+1Iteration :113
+2Iteration :107
+1Iteration :114
+0Iteration :121
+2Iteration :108
+1Iteration :115
+0Iteration :122
+2Iteration :109
+1Iteration :116
+0Iteration :123
+1Iteration :117
+2Iteration :110
+0Iteration :124
+1Iteration :118
+0Iteration :125
+2Iteration :111
+1Iteration :119
+0Iteration :126
+2Iteration :112
+1Iteration :120
+0Iteration :127
+2Iteration :113
+0Iteration :128
+1Iteration :121
+2Iteration :114
+0Iteration :129
+1Iteration :122
+2Iteration :115
+0Iteration :130
+1Iteration :123
+2Iteration :116
+1Iteration :124
+2Iteration :117
+0Iteration :131
+1Iteration :125
+0Iteration :132
+2Iteration :118
+1Iteration :126
+0Iteration :133
+2Iteration :119
+1Iteration :127
+0Iteration :134
+2Iteration :120
+1Iteration :128
+0Iteration :135
+0Iteration :136
+1Iteration :129
+0Iteration :137
+2Iteration :121
+1Iteration :130
+2Iteration :122
+0Iteration :138
+1Iteration :131
+2Iteration :123
+0Iteration :139
+1Iteration :132
+2Iteration :124
+0Iteration :140
+1Iteration :133
+2Iteration :125
+1Iteration :134
+2Iteration :126
+0Iteration :141
+1Iteration :135
+2Iteration :127
+0Iteration :142
+1Iteration :136
+2Iteration :128
+0Iteration :143
+1Iteration :137
+2Iteration :129
+0Iteration :144
+1Iteration :138
+2Iteration :130
+0Iteration :145
+1Iteration :139
+0Iteration :146
+1Iteration :140
+0Iteration :147
+2Iteration :131
+0Iteration :148
+2Iteration :132
+1Iteration :141
+0Iteration :149
+2Iteration :133
+1Iteration :142
+0Iteration :150
+2Iteration :134
+1Iteration :143
+2Iteration :135
+1Iteration :144
+0Iteration :151
+2Iteration :136
+1Iteration :145
+0Iteration :152
+2Iteration :137
+1Iteration :146
+0Iteration :153
+2Iteration :138
+0Iteration :154
+1Iteration :147
+2Iteration :139
+0Iteration :155
+1Iteration :148
+2Iteration :140
+0Iteration :156
+0Iteration :157
+1Iteration :149
+2Iteration :141
+0Iteration :158
+1Iteration :150
+2Iteration :142
+0Iteration :159
+2Iteration :143
+0Iteration :160
+1Iteration :151
+2Iteration :144
+1Iteration :152
+2Iteration :145
+0Iteration :161
+1Iteration :153
+0Iteration :162
+2Iteration :146
+1Iteration :154
+0Iteration :163
+2Iteration :147
+1Iteration :155
+2Iteration :148
+0Iteration :164
+1Iteration :156
+0Iteration :165
+2Iteration :149
+1Iteration :157
+0Iteration :166
+2Iteration :150
+1Iteration :158
+0Iteration :167
+1Iteration :159
+0Iteration :168
+2Iteration :151
+0Iteration :169
+1Iteration :160
+2Iteration :152
+0Iteration :170
+2Iteration :153
+1Iteration :161
+2Iteration :154
+0Iteration :171
+1Iteration :162
+2Iteration :155
+0Iteration :172
+1Iteration :163
+2Iteration :156
+0Iteration :173
+1Iteration :164
+0Iteration :174
+2Iteration :157
+1Iteration :165
+0Iteration :175
+1Iteration :166
+2Iteration :158
+2Iteration :159
+0Iteration :176
+1Iteration :167
+2Iteration :160
+0Iteration :177
+1Iteration :168
+0Iteration :178
+1Iteration :169
+2Iteration :161
+0Iteration :179
+1Iteration :170
+2Iteration :162
+2Iteration :163
+0Iteration :180
+2Iteration :164
+1Iteration :171
+0Iteration :181
+1Iteration :172
+2Iteration :165
+0Iteration :182
+1Iteration :173
+2Iteration :166
+0Iteration :183
+1Iteration :174
+0Iteration :184
+2Iteration :167
+1Iteration :175
+0Iteration :185
+2Iteration :168
+1Iteration :176
+0Iteration :186
+2Iteration :169
+1Iteration :177
+0Iteration :187
+2Iteration :170
+0Iteration :188
+1Iteration :178
+0Iteration :189
+1Iteration :179
+0Iteration :190
+2Iteration :171
+1Iteration :180
+2Iteration :172
+0Iteration :191
+2Iteration :173
+1Iteration :181
+0Iteration :192
+1Iteration :182
+2Iteration :174
+0Iteration :193
+1Iteration :183
+2Iteration :175
+1Iteration :184
+0Iteration :194
+2Iteration :176
+0Iteration :195
+1Iteration :185
+0Iteration :196
+1Iteration :186
+2Iteration :177
+0Iteration :197
+1Iteration :187
+2Iteration :178
+0Iteration :198
+1Iteration :188
+2Iteration :179
+1Iteration :189
+0Iteration :199
+2Iteration :180
+1Iteration :190
+0 done
+[SCHEDULER] 15 Leaving mutator pool
+2Iteration :181
+1Iteration :191
+2Iteration :182
+1Iteration :192
+2Iteration :183
+1Iteration :193
+2Iteration :184
+1Iteration :194
+1Iteration :195
+2Iteration :185
+1Iteration :196
+2Iteration :186
+1Iteration :197
+2Iteration :187
+1Iteration :198
+2Iteration :188
+1Iteration :199
+2Iteration :189
+1 done
+[SCHEDULER] 16 Leaving mutator pool
+2Iteration :190
+2Iteration :191
+2Iteration :192
+2Iteration :193
+2Iteration :194
+2Iteration :195
+2Iteration :196
+2Iteration :197
+2Iteration :198
+2Iteration :199
+2 done
+[SCHEDULER] 17 Leaving mutator pool
+[SCHEDULER] Active mutators = 0
+[SCHEDULER] Creating scheduler policy YieldRandomly
+[SCHEDULER]   yield pattern 4,1,9,15,17,4,18,3,6,12
+[End 0.55 s]
+SUCCESS
